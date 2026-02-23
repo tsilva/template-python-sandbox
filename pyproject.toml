@@ -2,3 +2,9 @@
 name = "my-project"
 description = "Short description of what this project explores."
 requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
